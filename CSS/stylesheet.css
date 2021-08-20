@@ -1,0 +1,113 @@
+* {
+    display:flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100vw;
+}
+.main-nav {
+    margin-left:  -40px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    background-color: inherit;
+    font-size: 18px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+h3 {
+    font-size: 16px;
+    background-color: inherit;
+}
+
+.divider {
+    border-top: 1px solid gray;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    display: block;
+    background-color: white;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pic {
+    max-width: 350px;
+    align-self: center;
+}
+
+.me {
+    max-width: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-self: center;
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.about {
+    max-width:  300px;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btt {
+    background-color: whitesmoke;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.element {
+    background-color: inherit;
+}
+
+p {
+    background-color: inherit;
+}
+
+@media screen (min-width: 769px) {
+    .pic {
+        width: 500px;
+
+    }
+}
+
+@media screen (max-width: 1024px) {
+    .flex {
+        max-width 450px;
+    }
+
+
+}
