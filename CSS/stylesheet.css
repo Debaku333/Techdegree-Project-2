@@ -102,7 +102,7 @@ footer {
 strong,
 .email,
 .phone {
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -153,9 +153,6 @@ p {
         background-color: inherit;
         justify-content: center;
     }
-    .main-nav:second-child {
-        padding: 10px 40px;
-    }
     li {
         background-color: inherit;
     }
@@ -194,9 +191,6 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
-    .flex {
-        max-width 450px;
-    }
     #portfolio,
     #skills {
         display: block;
