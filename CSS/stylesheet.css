@@ -1,5 +1,4 @@
 * {
-    display:flex;
     flex-direction: column;
     background-color:teal;
     text-align: center;
@@ -79,6 +78,7 @@ li {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: white;
+    align-content: center;
 }
 
 .about {
@@ -134,6 +134,18 @@ p {
     background-color: inherit;
 }
 
+#portfolio,
+#skills {
+    display: block;
+    align-self: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+#contact {
+    display: flex;
+    align-self: center;
+}
+
 @media screen and (min-width: 768px) {
     .pic {
         width: 300px;
@@ -141,11 +153,6 @@ p {
     p {
         max-width: 300px;
         align-self: center;
-    }
-    #portfolio, 
-    #skills {
-        display: block;
-        margin: 35px 500px;
     }
     .main-nav {
         display: flex;
@@ -191,24 +198,14 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
-    #portfolio,
-    #skills {
-        display: block;
-        margin: 35px 500px;
-    }
     header {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    * {
-        margin-left: 8px;
-        margin-right: 8px;
-    }
     .holder {
         max-width: 1200px;
-        align-self: center;
     }
     .flex {
         justify-content: space-between;
