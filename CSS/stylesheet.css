@@ -83,8 +83,14 @@ li {
 
 .about {
     max-width:  300px;
-    align-self: center;
     margin-bottom: 50px;
+    align-self: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -118,6 +124,7 @@ strong {
 
 p {
     background-color: inherit;
+    padding: 15px;
 }
 
 .email {
